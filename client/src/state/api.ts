@@ -7,7 +7,7 @@ import {
 
 export const api = createApi({
   // baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:1337' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://financebi-1.onrender.com/' }),
   reducerPath: "main",
   tagTypes: ["Kpis", "Products", "Transactions"],
   endpoints: (build) => ({
